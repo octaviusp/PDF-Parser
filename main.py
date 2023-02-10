@@ -76,7 +76,20 @@ def convert_into_csv(pdf_path, pages=all, output_name="output.csv") -> bool:
 # TESTING PURPOSES #
 """
     -------------
+    Hardcoded
 """
+data_frame1 = str(list(get_table("./original.pdf", pages=3))[0]).split("\\r")
+data_frame2 = str(list(get_table("./original.pdf", pages=4))[0]).split("\\r")
+
+with open("results1.txt", "w") as file:
+    for data in data_frame1:
+        file.write(str(data) + '\n')
+    file.close()
+    
+with open("results2.txt", "w") as file:
+    for data in data_frame2:
+        file.write(str(data) + "\n")
+    file.close()
 #print(convert_into_csv("./0.pdf", output_name="0.csv"))
 #print(convert_into_csv("./0.pdf", output_name="0.csv"))
 #print(convert_into_csv("./1.pdf", output_name="1.csv"))

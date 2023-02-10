@@ -1,0 +1,34 @@
+                                        COBERTURAS            LÍMITE MÁXIMO POR      FRANQUICIA
+0                                              NaN                    SINIESTRO             NaN
+1            Responsabilidad Civil de Las Personas               3.000.000,00 €  Sin franquicia
+2                                       Aseguradas                          NaN             NaN
+3                          Reembolso a La Sociedad               3.000.000,00 €  Sin franquicia
+4     Límite Especial en Exceso para El Consejo De               3.000.000,00 €  Sin franquicia
+5             Administración De La Sociedad Matriz                          NaN             NaN
+6   Límite Especial en Exceso para Administradores   Hasta 500.000€ por persona  Sin franquicia
+7                                    No Ejecutivos           asegurada, y hasta             NaN
+8                                              NaN  1.000.000€ para el conjunto             NaN
+9                                              NaN       de personas aseguradas             NaN
+10                                         Fianzas               3.000.000,00 €  Sin franquicia
+11                         Gastos de Investigación               3.000.000,00 €  Sin franquicia
+12    Herederos, Representantes Legales y Cónyuges               3.000.000,00 €  Sin franquicia
+13     Reembolso por La Sociedad de Gastos Legales               3.000.000,00 €  Sin franquicia
+14                                  del Accionista                          NaN             NaN
+15            Representantes en Entidades Externas               3.000.000,00 €  Sin franquicia
+16      Run Off Para Personas Aseguradas Salientes               3.000.000,00 €  Sin franquicia
+17                                 Abogado Interno                 350.000,00 €  Sin franquicia
+18     Asesoramiento para La Restitución de Imagen                 350.000,00 €  Sin franquicia
+19           Asesoramiento y Gerencia de Riesgo en                 300.000,00 €  Sin franquicia
+20                           Situaciones de Crisis                          NaN             NaN
+21                          Asistencia psicológica                  40.000,00 €  Sin franquicia
+22                        Gastos de Aval Concursal                 200.000,00 €  Sin franquicia
+23                            Gastos de Emergencia     20% del límite máximo de  Sin franquicia
+24                                             NaN                indemnizacion             NaN
+25                              Multas y Sanciones                 300.000,00 €  Sin franquicia
+26                             Personas Vinculadas               3.000.000,00 €  Sin franquicia
+27                             Privación de Bienes               3.000.000,00 €  Sin franquicia
+28                   Procedimientos de Extradición                 500.000,00 €  Sin franquicia
+29                          Protección de Derechos                 250.000,00 €  Sin franquicia
+30    Responsabilidad como Fundador de La Sociedad                 150.000,00 €  Sin franquicia
+31          Responsabilidad Tributaria Subsidiaria               3.000.000,00 €  Sin franquicia
+32                        Respuesta a Un Regulador                 100.000,00 €  Sin franquicia
