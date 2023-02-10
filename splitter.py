@@ -19,8 +19,8 @@ def split_pdf_in_images(_pdf_path: str) -> list:
 
         # Splitting pdf in images per page.
         for n, page in enumerate(doc):
-            route = f"./pdf_parts/{n}.jpg"
-            page.save(route, "JPEG")
+            route = f"./pdf_parts/{n}.pdf"
+            page.save(route, "PDF")
             images_path.append(route)
 
         return images_path

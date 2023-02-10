@@ -1,6 +1,7 @@
 import splitter
 import text_extractor_ocr
 import tabula
+# import pandas for manage data frames
 
 
 def main(pdf_path: str) -> bool:
@@ -41,7 +42,7 @@ def get_text(pdf_path: str) -> list:
     return text_list
 
 
-def get_table(pdf_path: str) -> str:
+def get_table(pdf_path: str, pages = all) -> str:
     """Get table from a pdf with tabula library.
 
     Args:
@@ -51,5 +52,34 @@ def get_table(pdf_path: str) -> str:
         str: string containing the extracted tables
     """
 
-    tables = tabula.read_pdf(pdf_path)
-    return tables
+    data_frame = list(tabula.read_pdf(pdf_path, pages=pages))
+
+    return data_frame
+
+
+def convert_into_csv(pdf_path, pages=all, output_name="output.csv") -> bool:
+    """Convert a pdf table into csv
+    
+    Args:
+        pdf_path (str): pdf path file
+
+    Returns:
+        bool: if the transformation was successful or not.
+    """
+    try:
+        
+        tabula.convert_into(pdf_path, output_name, pages=pages)
+        return True
+    
+    except:
+        return False
+
+###################
+# TESTING PURPOSES #
+"""
+    -------------
+"""
+convert_into_csv("./0.pdf", output_name="0.csv")
+#print(convert_into_csv("./0.pdf", output_name="0.csv"))
+#print(convert_into_csv("./1.pdf", output_name="1.csv"))
+#####################
