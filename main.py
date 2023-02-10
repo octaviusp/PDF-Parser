@@ -1,8 +1,6 @@
 import splitter
 import text_extractor_ocr
 import tabula
-# import pandas for manage data frames
-
 
 def main(pdf_path: str) -> bool:
     """Main function of pdf parser.
@@ -68,7 +66,7 @@ def convert_into_csv(pdf_path, pages=all, output_name="output.csv") -> bool:
     """
     try:
         
-        tabula.convert_into(pdf_path, output_name, pages=pages)
+        tabula.convert_into("original.pdf", output_name, pages=pages)
         return True
     
     except:
@@ -79,7 +77,7 @@ def convert_into_csv(pdf_path, pages=all, output_name="output.csv") -> bool:
 """
     -------------
 """
-convert_into_csv("./0.pdf", output_name="0.csv")
+#print(convert_into_csv("./0.pdf", output_name="0.csv"))
 #print(convert_into_csv("./0.pdf", output_name="0.csv"))
 #print(convert_into_csv("./1.pdf", output_name="1.csv"))
 #####################
