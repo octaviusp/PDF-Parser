@@ -1,13 +1,13 @@
 data_to_extract_from_first_table = [
-    'No DE COTIZACIÓN',
+    'NO DE COTIZACIÓN',
     'DOMICILIO',
     'LOCALIDAD Y PROVINCIA',
     'EFECTO',
     'VENCIMIENTO',
     'DESGLOSE DE PRIMAS',
-    'Prima Neta Mínima',
-    'Recargo',
-    'Impuestos',
+    'PRIMA NETA MÍNIMA',
+    'RECARGO',
+    'IMPUESTOS',
     'PRIMA TOTAL'
 ]
 

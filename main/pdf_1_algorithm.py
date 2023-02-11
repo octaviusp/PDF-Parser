@@ -2,6 +2,8 @@
 from core import main
 from helpers import tools
 
+# FALTA REALIZAR 2DA TABLA
+
 
 def execute(pdf_type_1_path: str) -> bool:
     """ETL for pdf type 1 specified in docs.
@@ -18,7 +20,7 @@ def execute(pdf_type_1_path: str) -> bool:
     data_normalized = []
 
     for data in format_table(first_table):
-        formatted = format_field(data)
+        formatted = format_field(data.upper())
         data_normalized.append(formatted) if formatted else None
 
     print_organized_tuples(data_normalized[:-1])
@@ -61,9 +63,6 @@ def clean_nif_and_postal_code(data: str) -> str:
     return data
 
 
-def print_organized_tuples(data_normalized: tuple):
+def print_organized_tuples(data_normalized: tuple) -> None:
     for data in data_normalized:
         print(f"- {data[1]} {data[0]}")
-
-
-execute("C:/Users/Pavón/PDF-Parser/main/original.pdf")
