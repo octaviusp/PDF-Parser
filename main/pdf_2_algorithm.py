@@ -24,7 +24,7 @@ def execute(pdf_type_2_path: str) -> bool:
     
     for n, table in enumerate(tables):
         table = str(table)
-        with open(f"results_2_pdf_+{n}.txt", "w") as file:
+        with open(f"results_2_pdf_{n}.txt", "w") as file:
             file.write(table)
             file.close()
     
