@@ -1,0 +1,26 @@
+   Cía. de Seguros y Reaseguros, S.A. - CASER -            Unnamed: 0
+0         Avenida de Burgos, 109 - 28050 Madrid  Proyecto no 88881587
+1                                           NaN                   NaN
+2                                     § LÍMITES                   NaN
+3           ; Para daños personales por víctima          151.000,00 €
+4           ¬ R. CIVIL POR PRODUCTOS ENTREGADOS         NO CONTRATADA
+5            ¬ R. CIVIL POR TRABAJOS REALIZADOS            CONTRATADA
+6                                           NaN                   NaN
+7                                 § FRANQUICIAS                   NaN
+8                  ; FIJA A CARGO DEL ASEGURADO                   NaN
+9                               Ø Por siniestro              300,00 €
+10                           ¬ R. CIVIL CRUZADA            CONTRATADA
+11                                          NaN                   NaN
+12                                    § LÍMITES                   NaN
+13          ; Para daños personales por víctima          151.000,00 €
+14            ¬ R. CIVIL LOCATIVA, POR DAÑOS AL         NO CONTRATADA
+15                           INMUEBLE ARRENDADO                   NaN
+16                   ¬ CONTAMINACION ACCIDENTAL         NO CONTRATADA
+17                          ¬ FIANZAS Y DEFENSA            CONTRATADA
+18                                          NaN                   NaN
+19                              § SUBCOBERTURAS                   NaN
+20                       ; GASTOS DE DEFENSA EN              INCLUIDA
+21                RECLAMACIONES DE RC POR ACTOS                   NaN
+22                             MALINTENCIONADOS                   NaN
+23                                    ; LÍMITES                   NaN
+24                              Ø Por siniestro            3.000,00 €

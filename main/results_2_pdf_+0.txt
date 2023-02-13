@@ -1,0 +1,8 @@
+            Unnamed: 0 DATOS DEL SEGURO                     Unnamed: 1
+0            Protocolo         Proyecto                       Mediador
+1           00000011/1         88881587                        6651001
+2  Nombre del Mediador  NEGOCIO DIRECTO                            NaN
+3                 Ramo        Modalidad  Fecha de Emisión del Proyecto
+4                   25               69                     13/10/2021
+5             Duración    Forma de Pago                            NaN
+6      ANUAL RENOVABLE            ANUAL                            NaN
