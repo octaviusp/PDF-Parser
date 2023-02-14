@@ -19,11 +19,9 @@ def main(pdf_path: str) -> bool:
 
     if images_splitted:
 
-        get_text(pdf_path)
+        return get_text(pdf_path)
 
-        return True
-
-    return False
+    return ""
 
 
 def get_text(pdf_path: str) -> list:
@@ -51,7 +49,8 @@ def get_table(pdf_path: str, pages=all) -> str:
         str: string containing the extracted tables
     """
 
-    data_frame = list(read_pdf(pdf_path, pages=pages))
+    data_frame = read_pdf(pdf_path, pages=pages,
+                          java_options="-Dfile.encoding=UTF8", multiple_tables=True)
 
     return data_frame
 

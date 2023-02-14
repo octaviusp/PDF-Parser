@@ -1,0 +1,22 @@
+[      ;       DAÑOS A INSTALACIONES AÉREAS O  Unnamed: 0 Unnamed: 1  INCLUIDA
+0   NaN                         SUBTERRÁNEAS         NaN        NaN       NaN
+1     ;                          FRANQUICIAS         NaN        NaN       NaN
+2   NaN              Ø DAÑOS A INSTALACIONES         NaN        NaN       NaN
+3   NaN                AÉREAS O SUBTERRÁNEAS         NaN        NaN       NaN
+4   NaN                        Por siniestro       20,00          %       NaN
+5   NaN                               MÍNIMO      300,00          €       NaN
+6   NaN                               MÁXIMO    3.000,00          €       NaN
+7     ;                       DAÑOS POR AGUA         NaN        NaN  INCLUIDA
+8     ;        DAÑOS A INMUEBLES COLINDANTES         NaN        NaN  INCLUIDA
+9     ;                          FRANQUICIAS         NaN        NaN       NaN
+10  NaN                  Ø DAÑOS A INMUEBLES         NaN        NaN       NaN
+11  NaN                          COLINDANTES         NaN        NaN       NaN
+12  NaN                        Por siniestro       20,00          %       NaN
+13  NaN                               MÍNIMO      300,00          €       NaN
+14  NaN                               MÁXIMO    3.000,00          €       NaN
+15    ;          DAÑOS A BIENES DE EMPLEADOS         NaN        NaN  INCLUIDA
+16    ;                              LÍMITES         NaN        NaN       NaN
+17  NaN  Ø Por siniestro y periodo de seguro  150.000,00          €       NaN
+18    ;             SUBSIDIARIA DE VEHÍCULOS         NaN        NaN  INCLUIDA
+19    ;    RESPONSABILIDAD CIVIL SUBSIDIARIA         NaN        NaN  INCLUIDA
+20    ;         DAÑOS A BIENES PREEXISTENTES         NaN        NaN  INCLUIDA]
